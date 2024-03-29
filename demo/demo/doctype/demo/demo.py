@@ -3,7 +3,7 @@
 import base64
 import frappe
 from frappe.model.document import Document
-
+from frappe import _
 
 class Demo(Document):
 	pass
